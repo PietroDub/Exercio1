@@ -1,5 +1,5 @@
 <?php 
-    class Cliente extends Pessoa{
+    class Prestador extends Pessoa{
         private string $especialidade;
         public function __construct($nome, $especialidade)
         {

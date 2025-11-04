@@ -2,7 +2,8 @@
     class Itens{
         public function __construct(
             public string $horario = "",
-            public string $status = ""
+            public string $status = "",
+            public Servico $servico
         )
         {}
 
@@ -12,5 +13,9 @@
         public function getStatus(){
             return $this->status;
         }
+        public function getServico(): Servico {
+        return $this->servico;
+        }
+
     }
 ?>

@@ -19,6 +19,9 @@
         public function getValor():float{
             return $this->valor;
         }
+        public function setDecoracao():void{
+            
+        }
         public function getDecoracao():array{
             return $this->decoracao;
         }

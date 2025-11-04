@@ -1,6 +1,6 @@
 <?php 
     class Contratado extends Pessoa{
-        public $cnpj;
+        private string $cnpj;
         
         public function __construct($nome, $cnpj){
         parent::__construct($nome);
